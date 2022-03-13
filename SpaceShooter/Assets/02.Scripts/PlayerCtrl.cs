@@ -18,5 +18,7 @@ public class PlayerCtrl : MonoBehaviour
 
         Debug.Log("h="+h);
         Debug.Log("v="+v);
+
+        transform.position += new Vector3(0,0,1);
     }
 }
