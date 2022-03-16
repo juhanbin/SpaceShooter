@@ -8,10 +8,12 @@ public class PlayerCtrl : MonoBehaviour
     private Transform tr;
     //이동변수
     public float moveSpeed=10.0f;
+
+    public float turnSpeed=80.0f;
     void Start()
     {
         //컴포넌트를 추출해 변수에 대입
-        tr=GetComponent<Transform>();
+        tr = GetComponent<Transform>();
         
         
     }
@@ -20,9 +22,10 @@ public class PlayerCtrl : MonoBehaviour
     {
         float h=Input.GetAxis("Horizontal"); //-1.0f~0.0f~+1.0f
         float v=Input.GetAxis("Vertical"); //-1.0f~0.0f~+1.0f
+        float r=Input.GetAxis("Mouse X");
 
-        Debug.Log("h="+h);
-        Debug.Log("v="+v);
+        //Debug.Log("h="+h);
+        //Debug.Log("v="+v);
 
         //Transform 컴포넌트의 position 속성값을 변경
         //transform.position += new Vector3(0,0,1);
@@ -35,5 +38,7 @@ public class PlayerCtrl : MonoBehaviour
 
         //Translate 함수를 사용한 이동 로직(이동 방향*속력*Time.deltaTime)
         tr.Translate(moveDir.normalized * moveSpeed * Time.deltaTime);
+
+        tr.Rotate(Vector3.up * turnSpeed * Time.deltaTime * r);
     }
 }
