@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1728
     height: 1051
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 73
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 74
+  controlID: 20
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 75
+  controlID: 21
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/02.Scripts
+    - Assets/UnityBook-master
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/02.Scripts
+  - Assets/UnityBook-master
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/mac/unity study/SpaceShooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 90.999146}
-    m_SelectedIDs: d05a0000
-    m_LastClickedID: 23248
-    m_ExpandedIDs: 00000000685900006a5900006c5900006e5900007059000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 50.999756}
+    m_SelectedIDs: 6e590000
+    m_LastClickedID: 22894
+    m_ExpandedIDs: 00000000685900006a5900006c5900006e59000070590000dc59000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -433,7 +433,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.6208873, y: 3.3721745, z: 7.4557886}
+    m_Target: {x: -0.004197657, y: 0.94198966, z: 0.0018965751}
     speed: 2
-    m_Value: {x: 4.6208873, y: 3.3721745, z: 7.4557886}
+    m_Value: {x: -0.004197657, y: 0.94198966, z: 0.0018965751}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,9 +821,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.04248789, y: -0.93387717, z: 0.118591346, w: 0.3346705}
   m_Size:
-    m_Target: 0.82928395
+    m_Target: 2.8030252
     speed: 2
-    m_Value: 0.82928395
+    m_Value: 2.587607
   m_Ortho:
     m_Target: 0
     speed: 2

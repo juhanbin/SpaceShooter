@@ -6,15 +6,22 @@ public class PlayerCtrl : MonoBehaviour
 {
     //컴포넌트를 캐시 처리할 변수
     private Transform tr;
-    //이동변수
+    
+    //Animation 컴포넌트를 정장할 변수
+    private Animation anim;
+    //이동 속력 변수(public으로 선언되어 인스펙터 뷰에 노출됨)
     public float moveSpeed=10.0f;
-
+    
+    //회전 속도 변수
     public float turnSpeed=80.0f;
     void Start()
     {
         //컴포넌트를 추출해 변수에 대입
         tr = GetComponent<Transform>();
-        
+        anim=GetComponent<Animation>();
+
+        //애니메이션 실ㅇ
+        anim.Play("Idle");
         
     }
     
